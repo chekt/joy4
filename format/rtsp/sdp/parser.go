@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nareix/joy4/av"
+	"github.com/chekt/joy4/av"
 )
 
 type Session struct {

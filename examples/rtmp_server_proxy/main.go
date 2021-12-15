@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/nareix/joy4/format"
-	"github.com/nareix/joy4/av/avutil"
-	"github.com/nareix/joy4/format/rtmp"
+
+	"github.com/chekt/joy4/av/avutil"
+	"github.com/chekt/joy4/format"
+	"github.com/chekt/joy4/format/rtmp"
 )
 
 func init() {

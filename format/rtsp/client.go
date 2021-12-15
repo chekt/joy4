@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nareix/joy4/av"
-	"github.com/nareix/joy4/av/avutil"
-	"github.com/nareix/joy4/codec"
-	"github.com/nareix/joy4/codec/aacparser"
-	"github.com/nareix/joy4/codec/h264parser"
-	"github.com/nareix/joy4/format/rtsp/sdp"
-	"github.com/nareix/joy4/utils/bits/pio"
+	"github.com/chekt/joy4/av"
+	"github.com/chekt/joy4/av/avutil"
+	"github.com/chekt/joy4/codec"
+	"github.com/chekt/joy4/codec/aacparser"
+	"github.com/chekt/joy4/codec/h264parser"
+	"github.com/chekt/joy4/format/rtsp/sdp"
+	"github.com/chekt/joy4/utils/bits/pio"
 )
 
 var ErrCodecDataChange = fmt.Errorf("rtsp: codec data change, please call HandleCodecDataChange()")
